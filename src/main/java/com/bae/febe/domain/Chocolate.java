@@ -24,6 +24,7 @@ public class Chocolate {
 
 	@Column
 	private Double size;
+	a
 
 	@Column
 	private Integer quantity;
