@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `chocolate` CASCADE;
+
+CREATE TABLE `chocolate` (
+	`id` INTEGER PRIMARY KEY AUTO_INCREMENT, 
+	`name` VARCHAR(255) NOT NULL, 
+	`brand` VARCHAR(255) NOT NULL,
+	`price` DOUBLE NOT NULL,
+	`size` INTEGER NOT NULL, 
+	`quantity` INTEGER NOT NULL 
+);
