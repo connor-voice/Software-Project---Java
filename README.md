@@ -67,6 +67,15 @@ The back-end for this project was created using Java and Spring Boot
 
 I tested this project using JUnit for independant tests as well as running a coverage test. 
 
+**JUnit** -- I tested my application with integration tests from JUnit. I told my application tests to input and read data and expect certain results, then ran the tests to see if the results matched what they were expecting. 
+
+![image](https://user-images.githubusercontent.com/93252743/146186697-3c654eea-b332-40b4-8b7e-7a516c841b2b.png)
+
+**Coverage** -- I used JUnit to run a coverage test to see how much of my code is being used when the application runs. I got a decent coverage of 83.9%. 
+
+![image](https://user-images.githubusercontent.com/93252743/146187804-d4b6a42f-5323-4223-9d53-d37c9d9947e2.png)
+
+
 
 * * * * *
 
