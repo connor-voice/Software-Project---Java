@@ -6,7 +6,7 @@ INSERT INTO `chocolate` (
 	`quantity` 
 ) values (
 	'Galaxy', 
-	`Mars`, 
+	'Mars', 
 	2.00,
 	1000,
 	400
