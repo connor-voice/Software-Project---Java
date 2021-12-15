@@ -40,7 +40,8 @@ public class ChocolateService {
 		exists.setPrice(newChocolate.getPrice());
 		exists.setSize(newChocolate.getSize());
 		exists.setQuantity(newChocolate.getQuantity());
-		return this.repo.findById(id).get();
+
+		return this.repo.save(exists);
 	}
 
 	public Chocolate replaceChocolateQuantity(Integer id, Chocolate newChocolate) {
