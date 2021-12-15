@@ -45,13 +45,6 @@ public class ChocolateService {
 
 	}
 
-	public Chocolate replaceChocolateQuantity(Integer id, Chocolate newChocolate) {
-		Chocolate exists = this.repo.findById(id).get();
-
-		exists.setQuantity(newChocolate.getQuantity());
-		return this.repo.findById(id).get();
-	}
-
 	public void removeChocolate(Integer id) {
 		this.repo.deleteById(id);
 		System.out.println("Deleted chocolate with ID: " + id);
