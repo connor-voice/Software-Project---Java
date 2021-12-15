@@ -17,5 +17,5 @@ public interface ChocolateRepo extends JpaRepository<Chocolate, Integer> {
 	List<Chocolate> findByPrice(Double price);
 
 	List<Chocolate> findBySize(Integer size);
-
 }
+
