@@ -42,6 +42,7 @@ public class ChocolateService {
 		exists.setQuantity(newChocolate.getQuantity());
 
 		return this.repo.save(exists);
+
 	}
 
 	public Chocolate replaceChocolateQuantity(Integer id, Chocolate newChocolate) {

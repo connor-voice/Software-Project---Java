@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bae.febe.domain.Chocolate;
 import com.bae.febe.service.ChocolateService;
 
+
 @CrossOrigin
-@RestController
 public class ChocolateController {
 
 	private ChocolateService chocserv;
