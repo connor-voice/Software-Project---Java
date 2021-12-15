@@ -1,59 +1,57 @@
-Cloud Native - Plant Tracker Project
+Spring Software Application
 ====================================
 
-Victoria Manicom
+Connor Voice
 
-Google Slides Presentation link : https://docs.google.com/presentation/d/1M-UfdzhacYPcKe4Kq2eQnCwkP0C419whzndnhrgJ7UI/edit?usp=sharing
+Google Slides Presentation link : CHANGE CHANGE CHANGE CHANGE CHANGE CHANGE CHANGE CHANGE https://docs.google.com/presentation/d/1M-UfdzhacYPcKe4Kq2eQnCwkP0C419whzndnhrgJ7UI/edit?usp=sharing
 
 Introduction:
 -------------
 
-The brief was to create a CRUD application that encapsulated all the core modules covered during the training.
+The task was to create the front end and the back end for an application that can process data back and forth, using the technologies learned from the modules these past few weeks.
 
-Project Management - A fully expanded Jira board, clear documentation from a design phase. Code integrated into a Version Control System.
+Project Management - This project required a full Jira board with version control integrated. I used Git and make sure auto commits were enabled
 
-Databases - A relational database to store persistent data from the project.
+Databases - While creating this project I used a h2 database. On completion of the task I moved over to a real database so that the data is permanently stored.
 
-Java SE & Spring Boot - Functional application created in OOP language which meets requirements of Kanban board.
+Java SE & Spring Boot - OOP language with a supporting framework to make the creation of a CRUD application faster and function a lot easier.
 
-Testing - Acceptable level of test coverage on back-end (JUnit, MockMVC and Mockito).
+Testing - To test this project I used JUnit and MockMVC
 
-Front-End Development - Functioning front-end website with API integration.
+Front-End Development - Easy to use, functional website designed to control the data.
 
 * * * * *
 
 ### Planning Resources:
 
-Using Jira Software I created a Kanban board modelled as a Scrum and created the user stories and epics. From the user stories I created linked issues for the front and back end of my project to help the structure of the build. I created five main user stories, an example of one is shown here:
+To begin with, I created a Jira Scrum Board and populated it with two epics (one for front end, and one for back end). I populated these epics with issues so that I knew what I needed to do next. 
+![image](https://user-images.githubusercontent.com/93252743/146170193-76c3b6d1-0413-4e9e-9308-4bdbadc39c9a.png)
 
-![](https://lh3.googleusercontent.com/RDrA8BVZv2sA0I91_k98xpIM5lXEiPPS8VPO0fVjeMINmo7uQ60rj-_ZqfzKtA-t8XYjl3fUXc0LAw_bkR03gxQvVOWGF8it5d1M2pkNdV9yD2X0Hh4NzU2hkT49HDPohQOd8zFd)
+Next I created two github repo’s. One for front end and one for back end. I commit the basics required for these, and also used the Jira Issue Keys in the commits to make sure that my Jira board was automatically following my git commits. 
+![image](https://user-images.githubusercontent.com/93252743/146170265-07c21083-67e2-40b6-9838-3e1bf8d52c59.png)
 
-Once I had decided on my user stories I started to think about the design for the website. Using Invision Freehand I created a wireframe and stuck to this throughout my front-end creation.\
-![](https://lh5.googleusercontent.com/ixIZQUgbbTQBQqo3VKWz5vttJ7cLR2fVkTd1Y33cAxTx0JX6PqTcCwhJSv6sc04d2W1iWoHRp_bF-DPwjDM5OGer6FP8dMBtbcWFqdYPp0aDOjPOCPD5Sz5sLYNWD5vVvtTl4_Mc)
+I then created the branches that I would be needing so that I wasn’t working from the main branch.
 
-Throughout the project build I completed various sprints, grouping the issues from epics to complete different sections.
+![image](https://user-images.githubusercontent.com/93252743/146170467-69408e7f-64f6-4de4-995e-763cf58834d9.png)
 
-![](https://lh6.googleusercontent.com/sN428wmx3-QxizkfNOStiIjTWaxsyEGCqtzF_3eqY5tGEg29l7iuC07PvwSwU7T7gr955TXQWr7Sw-MV9syxSO_W-rdP-k1YTYhSGpP0KEyWl6nkEx5DZ4te-WlxOeV4xvxEMd3D)
-
-I set up two git repositories before starting - one for the front-end and one for back-end. This is the network graph from my back-end repository:
-
-![](https://lh3.googleusercontent.com/2dpUFod5kFAkHn4VByrPF2JHdFommcMl2Ye-BfROPz5ooNtsgvPYw1uW7OV6PQH7pGc-xFDuGfOICd1Xkvc3knNZu6OwnkWzROQ3sTxJ7mpkwjZfQYI3Ca-8kWZun7_kShVCHlZz)
-
-I linked my git with my jira board so I could make smart commits throughout the build and made sure to commit after each new functionality.
+I connected my Jira to GitHub and made sure that every time I made a commit about an issue I used to issue key and added a relevant comment. 
 
 * * * * *
 
 ### Databases
 
-Two databases were used in this project, a local H2 database which was used for testing the back-end and a MySQL database for storing the persistent data from the application.
+In this project I used a **H2** database while creating the application, and used a real **MySQL** database once I felt I had finished the app. 
 
-H2:
+**H2:**
 
-The H2 database was created with plant-schema.sql and plant-data.sql files to automatically populate the fields for testing purposes.
+The h2 database was used while developing the application, and is also used when running the tests. They are created using two sql query files that will create a temporary database, and also populate it with data.
 
-MySQL:![](https://lh4.googleusercontent.com/c6HPVD5UJE7-4yMkp7pWo_2WIdd_RoZxVW1ZHYbZLz1R31yUBEGHeSVVAYGnyUjqpX4QDcfZ1iKuFaZE4yf9PYFj4zJKYeqlMxmlrU_Ew2cLpLFIK5U9U5rsnHRUI7Sr4tOg1vGQ)
+![image](https://user-images.githubusercontent.com/93252743/146171325-f60f20f9-e1ef-49d3-9d9b-c8107c7c5c08.png)
 
-This is the layout of my database for the plant tracker.![](https://lh5.googleusercontent.com/MaP8RKoTEaXjU4FQCz7LChlqU1FDtWemg_XefUvXUgOGaTiD2jBwjsbLBBnRGNiN6c29R9Rb-STcQpd2QAaMyWTYyQg_xTmvz43XXHNLDw6EEWngayvSQukWz6jEluC9WCp3iSAh)
+![image](https://user-images.githubusercontent.com/93252743/146171347-9b25fc5f-928f-4ab5-9140-14978e006bbf.png)
+
+
+MySQL:CHANGECHANGECHANGECHANGECHANGECHANGE 
 
 It shows the datatype of each column and also that the 'name' field has to be unique.
 
@@ -61,38 +59,25 @@ It shows the datatype of each column and also that the 'name' field has to be un
 
 ### Back-end + Testing:
 
-The back-end of this project was created using Java in a Spring Boot Framework. I made sure that all of my Kanban board requirements were met with the correct mappings in my code.
+The back-end for this project was created using Java and Spring Boot
 
 ![](https://lh4.googleusercontent.com/3lqHWvWTZwx-yrqsHsXe5hn_YyjlA5x6Fg8IbVySVv2LlZI7SifJY8jBUsu0LQog6x92nF4ZzRbRBdZI-F_4MdVWcQI38LPBtHbLhomsw4pLhbjQsR6fBUCNHkve0XMP3V7CCbxy)
 
 #### Testing:
 
-Both integration and unit testing was used on this project.
+I tested this project using JUnit for independant tests as well as running a coverage test. 
 
-Integration testing: MockMVC\
-![](https://lh4.googleusercontent.com/eFd3quy2T8RZuh3mjpBMGv84zvQFkbIb255BBzic2MROstOFq4KgQtdD7HLoPoSDDyYFWPqpG4M_lLnQQYdzCldqAb2EEhDpZ-xzPkY6uQ9RT4XDJ9JcfIDijlNHCxIrXRXe99_l)
-
-To make sure that the program was working, I used MockMVC to create a mocked Controller class.
-
-It performed mock HTTP requests like a user of the program would and allowed me to test the outcomes of each HTTP endpoint.
-
-Unit testing: JUnit and Mockito
-
-By unit testing each part of the program I could check that the individual parts are working as they should. Using Mockito I mocked the responses given by the repo so that I could test if what came out of my method matched my testing data.
-
-![](https://lh6.googleusercontent.com/4cJFjIRKfRDFyyotmGI8snpLpZwBJeUpROH_ciNUy4FmlOJwwP2PjS1Q76ym2bPyFm-6O81LZTsRThKPrB908bxZBaZ9fvTgtRzvk2HnY2H4tAs2zUlOsq3gLEgun8yURT7nqcRH)
-
-GIVEN-WHEN-THEN-VERIFY structure.
 
 * * * * *
 
 ### Front-End:
 
-The front-end is built from HTML, CSS and JavaScript. I used the Bootstrap framework for various components, including forms, modals and toasts.
+![image](https://user-images.githubusercontent.com/93252743/146178449-f00f057a-c11c-4c98-9082-0fdd4948bd1f.png)
 
-The HTML and CSS are used to create the look of the website, I used CSS to animate the plant cards when hovered over for extra user interaction.\
-![](https://lh4.googleusercontent.com/03_SLAbjwnCNTHhDvgEYJYmXhjUUIzMxn4BauCxT1TYVsrbP_dFk02a94idpkLIgZljLw4nY3r3X8kfKW8-hL5E3Pnsb37bkMVEJJU5gxjH8oxr7NgM7VOJDRZZTgr7j48iTJsU2)
 
-The JS was used for the API integration using axios. It was also used to get the modal and toasts to pop up on creation/updating.\
-![](https://lh3.googleusercontent.com/OctetUULYWPzih9ZkTBcZfUj76zcX-bzTKPeA5Lw043hmewq7J2WWXKRaq6-9ZhYyQYEWzYvwG3bWSSa9PYHvd_abYl-QFo34-xBVToRCeb2HudeCju6ODOsSNMVInD8SvoU_uF3)\
-![](https://lh5.googleusercontent.com/aGOgfJLdtWOC4p5xw3lv3lLR-t-oqNpE2GQq5jXjgAJCIAKYnJVOrkrTwAAlxn5WMePT3ttvd2RBERW8crgnpEcm6-PzC2Ei8T0pWs-ZoKPaK7IPi70Tp9vNlFnONonUYU_VZfj0)
+The front end of this project is built using HTML and CSS. There is JavaScript used to read objects from the database and display them as cards, as well as JavaScript used to create, update, and delete objects in the database. 
+
+The CSS on the page is utilising Bootstrap, but also has some customizations from myself. 
+
+
+
