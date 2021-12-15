@@ -3,7 +3,7 @@ Spring Software Application
 
 Connor Voice
 
-Google Slides Presentation link : CHANGE CHANGE CHANGE CHANGE CHANGE CHANGE CHANGE CHANGE https://docs.google.com/presentation/d/1M-UfdzhacYPcKe4Kq2eQnCwkP0C419whzndnhrgJ7UI/edit?usp=sharing
+Google Slides Presentation link : https://docs.google.com/presentation/d/11gpLhwUi4nGrzhaadY_rVscWmHrqQDKwOPHsDrPFbSA/edit#slide=id.g1082f7b8190_0_37
 
 Introduction:
 -------------
@@ -51,17 +51,17 @@ The h2 database was used while developing the application, and is also used when
 ![image](https://user-images.githubusercontent.com/93252743/146171347-9b25fc5f-928f-4ab5-9140-14978e006bbf.png)
 
 
-MySQL:CHANGECHANGECHANGECHANGECHANGECHANGE 
+MySQL: ![image](https://user-images.githubusercontent.com/93252743/146219966-d5bf6a7b-7465-4c5a-8c63-17a7db29cd2e.png)
 
-It shows the datatype of each column and also that the 'name' field has to be unique.
+I used MySQL for this project once I felt I was finished with the functionality of the CRUD functionality. 
+
 
 * * * * *
 
-### Back-end + Testing:
+### Back-end
 
-The back-end for this project was created using Java and Spring Boot
+![image](https://user-images.githubusercontent.com/93252743/146220320-88f47690-0eb6-4dbb-bc01-a93e6cc6c8be.png)
 
-![](https://lh4.googleusercontent.com/3lqHWvWTZwx-yrqsHsXe5hn_YyjlA5x6Fg8IbVySVv2LlZI7SifJY8jBUsu0LQog6x92nF4ZzRbRBdZI-F_4MdVWcQI38LPBtHbLhomsw4pLhbjQsR6fBUCNHkve0XMP3V7CCbxy)
 
 #### Testing:
 
